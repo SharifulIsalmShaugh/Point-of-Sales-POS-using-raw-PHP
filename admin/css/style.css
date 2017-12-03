@@ -1,0 +1,287 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 1200px;
+}
+a{
+	text-decoration:none;
+}
+header{
+	background: #00695c ;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+.up{
+	height: 80px;
+	width: 120px;
+	float: right;
+}
+
+.img{
+margin: 0px;
+height: 80px;
+width: 118px;
+float: right;
+}
+/*header ul{
+	float: right;
+	list-style: none;
+	margin:0;
+	padding: 0;
+
+}
+header ul li a{
+	text-decoration: none;
+	margin: 23px 75px;
+	padding: 10px 60px;
+	display: block;
+	background-color: #4db6ac;
+	text-align: center;
+	border-radius: 50px 100px;
+	color: #000;
+	font-weight: bold;
+}*/
+aside{
+	background: #00897b;
+	width: 20%;
+	float: left;
+	height: 1100px;
+}
+aside ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+aside ul li a{
+	text-decoration: none;
+	margin: 16px 40px;
+	padding: 10px 0px;
+	display: block;
+	background: #4db6ac ;
+	text-align: center;
+	border-radius: 5px;
+	color: #000;
+	font-weight: bold;
+}
+ul li a:hover{
+	background: #004d40   ;
+	color: white;
+}
+section{
+	background: #80cbc4  ;
+	width: 80%;
+	overflow: hidden;
+	height: 1100px;
+}
+footer{
+	background: #00695c ;
+	width: 100%;
+	height: 100px;
+}
+aside ul ul li{
+	float: none;
+	
+}
+aside ul ul{
+	display: none;
+	top:0%;
+	left: 0%;
+	position: relative;
+	width: 270px;
+	border-radius: 5px;	
+}
+aside ul ul a{
+	background:#84ffff ;
+}
+
+aside ul li:hover ul{
+	background: #00897b;
+	display: block;
+
+}
+button{
+	margin: 10px 10px;
+	padding: 20px 20px;
+	width: 200px;
+	height: 80px;
+	background: #00695c;
+	border-radius: 10px;
+	font-weight:bold;
+}
+.menagebutton{
+	margin: 10px 10px;
+	padding: 20px 30px;
+	width: 200px;
+	height: 80px;
+	background: #00695c;
+	border-radius: 10px;
+	font-weight:bold;
+}
+.editbutton{
+	color:blue;
+}
+.deletebutton{
+	color:red;
+}
+button a{
+	text-decoration: none;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #212121;
+    width: 95%;
+    margin: 40px 30px;
+
+}
+.table, .table td,.table th {
+    border: 2px solid #212121;
+    padding: 4px 8px;
+    text-align: center;
+}
+.table tr:nth-child(even){background-color: #00897b}
+.refsec{
+	text-align: center;
+	padding: 50px 0;
+}
+section ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+section ul li{
+
+}
+/*section ul li a{
+	float: left;
+	text-decoration: none;
+	margin: 56px 90px;
+	padding: 57px 85px;
+	display: block;
+	background-color: #00897b;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	border-radius: 5px;
+}*/
+section ul li a {
+    float: left;
+    text-decoration: none;
+    margin: -45px 29px;
+    padding: 11px 27px;
+    display: block;
+    background-color: #00897b;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+}
+.form{
+	margin: 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+input{
+	display: block;
+	background: #00897b ;
+	width: 90%;
+	padding: 10px 15px;
+	margin: 5px 12px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+}
+
+.select{
+	background: #00897b;
+	width: 95%;
+	padding: 10px 15px;
+	margin: 0 12px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+select{
+	background: #00897b;
+	width: 95%;
+	padding: 10px 15px;
+	margin: 0 12px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+option{
+	background: #00897b;
+	color: white;
+	height: 30px;
+	border-radius: 5px;
+}
+textarea{
+	display: block;
+	background: #00897b;
+	width: 90%;
+	padding: 10px 15px;
+	margin: 0 12px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+.inputoption{
+	display: inline-block;
+	width: 68% !important;
+	margin-left: 15%;
+        margin-bottom: 15px;
+}
+
+.inputform{
+	display: inline-block;
+	width: 60% !important;
+	margin-left: 15%;
+}
+.submitbutton{
+	display: inline-block;
+	width: 123% !important;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	float: right;
+}
+.addsubmit{
+	display: inline-block;
+	width: 30% !important;
+	margin: 10px 20px;
+	padding: 10px 20px;
+	float: right;
+}
+hr{
+	margin-bottom: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid #14a58c;
+	width: 200px;
+}
+.viewselers{
+	margin-top: 150px;
+	border: none;
+}
+.viewselers td{
+	margin-left: 20px;
+	padding: 10px 58px;
+	font-weight: bold;
+}
+
+img{
+	border: 1px solid black;
+	margin: 10px 20px;
+	height: 150px;
+	width: 140px;
+	float: right;
+	
+}
+
